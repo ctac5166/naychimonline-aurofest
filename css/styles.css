@@ -150,6 +150,13 @@ svg{
 	font-family: 'Vonique';
 }
 
+.button-bb{
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'Vonique';
+	text-align: left;
+}
+
 .text-of-hakaton-l{
 	padding-top: 5%;
 	margin: 0;
@@ -191,6 +198,18 @@ svg{
 	margin-right: auto;
 	text-align: center;
 	transform: translate(-25%, -30%) rotate(-90deg);
+}
+
+.big-size-a{
+	padding-top: 5%;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Vonique';
+	text-align: left;
+	padding-left: 10%;
+	padding-bottom: 0;
+	font-size: 3.5vw;
+	text-align: center;
 }
 
 .img-float-r{
@@ -246,6 +265,32 @@ svg{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.parent{
+	position:relative;
+	width:100%;
+	min-width:320px
+}
+
+.parent img{
+	display:block;
+	width:100%;
+}
+
+.parent div{
+	position:absolute;
+	width:95%;
+	left:0;
+	bottom:0;
+	color:rgb(0, 0, 0);
+	padding: 10% 0;
+	font-size: 2vw;
+	background-color: rgba(255, 255, 255, 0.404);
+}
+
+.none-blure{
+	filter: blur(0);
 }
 
 .color-f{
