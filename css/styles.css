@@ -393,3 +393,17 @@ div {
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
+
+
+
+@media screen and (min-width: 1000px) {
+	.back-text-c {
+	   font-size: 50px;
+	}
+	.back-text-l-i-b {
+		font-size: 50px;
+	 }
+	 .rot-text-l {
+		font-size: 50px;
+	 }
+  }
